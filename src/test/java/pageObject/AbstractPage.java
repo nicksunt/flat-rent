@@ -29,7 +29,7 @@ public class AbstractPage {
     }
 
 
-    ///////////////////////////  методы как у александра ////////////////////////////////
+    ///////////////////////////  ОЖИДАНИЯ МОЖНО ОТДЕЛЬНО СЮДА ВЫНЕСТИ  ////////////////////////////////
 
     protected WebElement waitForElementToBeClickable(WebElement webElement) {
         return new WebDriverWait(driver, Duration.ofSeconds(WAIT_TIMEOUT_SECONDS)).until(ExpectedConditions

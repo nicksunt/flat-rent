@@ -7,6 +7,9 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class SearchResult extends AbstractPage {
+
+    /////////////////////////////////////  МОЁ РЕШЕНИЕ  //////////////////////////////////////////
+
     @FindBy(css = ".add_cost")
     private List<WebElement> listTextPrice;
 
@@ -28,7 +31,7 @@ public class SearchResult extends AbstractPage {
         }
     }
 
-/////////////////////////////////// РЕШЕНИЕ АНАЛОГИЧНО КАК У АЛЕКСАНДРА //////////////////////////////////////////////////
+/////////////////////////////////// РЕШЕНИЕ КАК У АЛЕКСАНДРА //////////////////////////////////////////////////
 
     @FindBy(css = ".add_info")
     private List<WebElement> listFlat;
